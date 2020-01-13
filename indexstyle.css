@@ -1,0 +1,61 @@
+#formcontainer{
+				text-align: center;
+			}
+			div.loginform{
+				display: inline-block;
+				background-color: white;
+				width: 400px;
+				height: 400px;
+				border-color: gray;
+				border-radius: 20px;
+				border-style: outset;
+				transform: translate(0%, 25%);
+				color: black;
+				font-weight: bold;
+				font-family: "Gill Sans", sans-serif;
+				text-decoration: none;
+				text-align: left;
+				/*align-content: center;*/
+			}
+			form.login{
+				padding: 30px;
+			}
+			input[type=text], input[type=number]{
+			 	width: 100%;
+			  	padding: 12px 20px;
+			  	margin: 8px 0;
+			  	display: inline-block;
+			  	border: 1px solid #ccc;
+			  	border-radius: 8px;
+			  	box-sizing: border-box;
+			}
+			input[type=date], select {
+			 	width: 100%;
+			  	padding: 12px 20px;
+			  	margin: 8px 0;
+			  	display: inline-block;
+			  	border: 1px solid #ccc;
+			  	border-radius: 8px;
+			  	box-sizing: border-box;
+			}			
+			input[type=button], input[type=reset]  {
+			  	background-color: black;
+			  	border: none;
+			  	color: white;
+			  	padding: 10px 26px;
+			  	text-decoration: none;
+			  	margin: 4px 2px;
+			  	cursor: pointer;
+			  	border-radius: 8px;
+			}
+			#grad1 {
+				color: white;
+				height: 100%;
+				background-color: white; /* For browsers that do not support gradients */
+				background-image: -webkit-linear-gradient(top left, gray, black);
+				background-image: -o-linear-gradient(top left, white, gray);
+				background-image: linear-gradient(to bottom right, white, gray); /* Standard syntax (must be last) */
+				border-radius: 20px;
+				border-style: outset;
+			}
+

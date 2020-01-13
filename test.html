@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="indexstyle.css">
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		* {
+		  box-sizing: border-box;
+		}
+
+		.box1 {
+		  float: left;
+		  width: 25%;
+		  height: 450px;
+		  padding: 50px;
+		}
+		.box2 {
+		  float: left;
+		  width: 75%;
+		  height: 450px;
+		  padding: 50px;
+		}
+		/*.box3 {
+		  float: left;
+		  width: 40%;
+		  padding: 50px;
+		}*/
+
+		.clearfix::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
+		/*section{
+				border: solid;
+				width: 25%;
+				height: 90%;
+			}*/
+			.sidebarlist{
+				padding: 10px;
+				/*margin-bottom: 50px;*/
+			}
+			.listitem{
+				padding: 20px;
+				/*margin-left: 30px;*/
+				list-style-type: none;
+				border-bottom: solid 1px; 
+				/*font-size: 24px;*/
+			}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-start" style="padding-left: 50px;padding-right: 30px">
+		<a class="navbar-brand float-right" href="#">Logo</a>
+		<div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+			<ul class="navbar-nav  justify-content-end">
+				<br>
+				<li class="nav-item"><a class="nav-link" href="#" title="Home">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" title="About">About</a></li>
+				<li class="nav-item dropdown">
+			    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+			      Services
+			    </a>
+			    <div class="dropdown-menu">
+			      <a class="dropdown-item" href="#">Service 1</a>
+			      <a class="dropdown-item" href="#">Service 2</a>
+			      <a class="dropdown-item" href="#">Service 3</a>
+			    </div>
+				<li class="nav-item"><a class="nav-link" href="login.php" title="Login">Login/Signup</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" title="Contact Us">Contact us</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div style="border-bottom: solid 1px;">
+		<h1 style="margin: 30px;text-align: center;">Welcome to invoice Generator</h1>	
+	</div>
+	<div class="clearfix">
+	  <div class="box1" style="background-color: #bbbbbb">
+	 	 <section>
+			<ul class="sidebarlist">
+				<li class="listitem"><a href="" title="">Product Master</a></li>
+				<li class="listitem"><a href="" title="">Daily Report</a></li>
+				<li class="listitem"><a href="" title="">Customer Master</a></li>
+				<li class="listitem"><a href="" title="">Invoice Master</a></li>
+				<li class="listitem"><a href="" title="">Logout</a></li>
+			</ul>
+	</section>
+	  </div>
+	  <div class="box2" style="border-left: solid 1px;">
+	  	<p>Some text inside the box.</p>
+	  </div>
+	  <!-- <div class="box3" style="background-color:#ddd">
+	  	<p>Some text inside the box.</p>
+	  </div> -->
+</div>
+</body>
+</html>
